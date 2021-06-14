@@ -15,7 +15,7 @@ import java.time.LocalDate;
     private TicketType type; //Поле может быть null
     private EventType event; //Поле может быть null
 
-    public Ticket(long id, String name, Coordinates coordinates, LocalDate creationDate, Integer price, Integer integer, TicketType type, EventType event){}
+
     public Ticket(long id, String name, Coordinates coordinates, LocalDate creationDate,Integer price, TicketType type, EventType event) {
         this.id = id;
         this.name = name;
