@@ -33,7 +33,7 @@ public class InsertCommand extends Command{
 
 
         
-        Ticket p = new Ticket(id,name,coordinates,creationDate,price, price,type ,event);
+        Ticket p = new Ticket(id,name,coordinates,creationDate,price,type ,event);
         collection.add(p);
         ioManager.writeLine("Object was added: " + p.toString());
     }
