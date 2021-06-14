@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manager>
+    <groupsA>
+        <entry>
+            <key>2</key>
+            <value>
+                <id>0</id>
+                <name>2</name>
+                <coordinates>
+                    <x>2.0</x>
+                    <y>2</y>
+                </coordinates>
+                <price>14</price>
+                <type>VIP</type>
+                <event>CONCERT</event>
+            </value>
+        </entry>
+        <entry>
+            <key>3</key>
+            <value>
+                <id>0</id>
+                <name>34</name>
+                <coordinates>
+                    <x>324.0</x>
+                    <y>234</y>
+                </coordinates>
+                <price>234</price>
+                <type>BUDGETARY</type>
+                <event>BASKETBALL</event>
+            </value>
+        </entry>
+        <entry>
+            <key>4</key>
+            <value>
+                <id>4</id>
+                <name>34</name>
+                <coordinates>
+                    <x>243.0</x>
+                    <y>2345</y>
+                </coordinates>
+                <price>23</price>
+                <type>VIP</type>
+                <event>CONCERT</event>
+            </value>
+        </entry>
+    </groupsA>
+</manager>
