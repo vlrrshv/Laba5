@@ -28,7 +28,7 @@ public class Engine {
         registerCommand(new ExitCommand(this));
         registerCommand(new HistoryCommand(this));
         registerCommand(new InsertCommand(this));
-        registerCommand(new FilterBySemesterEnumCommand(this));
+        registerCommand(new AddIfMinCommand(this));
         registerCommand(new FilterStartsWithNameCommand(this));
     }
 

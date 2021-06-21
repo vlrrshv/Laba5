@@ -28,7 +28,7 @@ public class Manager {
     }
 
     /**
-     * Отчищает коллекцию
+     * Очищает коллекцию
      */
     public void clear() {
         groupsA.clear();
@@ -147,9 +147,9 @@ public class Manager {
     }
 
     /**
-     * выводит элементы значения поля semesterEnum которых равно заданному
+     * выводит элементы значения поля ticketEnum которых равно заданному
      */
-    public void FilterSemester(String s){
+    public void FilterTicket(String s){
         for(Map.Entry<Long,Ticket> entry : groupsA.entrySet()) {
             if (entry.getValue().getEvent().toString().equals(s)){
                 System.out.println(entry);

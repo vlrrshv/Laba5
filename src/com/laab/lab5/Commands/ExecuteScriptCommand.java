@@ -12,7 +12,7 @@ public class ExecuteScriptCommand extends Command{
     @Override
     public void execute() throws IOException, JAXBException {
 
-        InputStreamReader inputStreamReader = new InputStreamReader(new FileInputStream("text.txt"));
+        InputStreamReader inputStreamReader = new InputStreamReader(new FileInputStream("script.txt"));
         BufferedReader reader = new BufferedReader(inputStreamReader);
         String str;
         ArrayList<String> list = new ArrayList<>();
