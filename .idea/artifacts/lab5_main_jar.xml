@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="lab5-main:jar">
-    <output-path>$PROJECT_DIR$/src/com/laab/lab5/types/artifacts/lab5_main_jar</output-path>
-    <root id="archive" name="lab5-main.jar">
-      <element id="module-output" name="lab5-main" />
-    </root>
-  </artifact>
-</component>
